@@ -42,7 +42,7 @@ class httpsPost
 	var $clientTimeOut;
 	var $apiVersion;
 	var $response;
-	var $debug = true; //default is false for production release
+	var $debug = false; //default is false for production release
 
 	public function __construct($url, $dataToSend)
 	{
